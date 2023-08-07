@@ -1,0 +1,287 @@
+/* =========== FOOTER DECORATIVE ===========*/
+.footer-decorative-1 {
+  top: 0;
+}
+
+.footer-decorative-1 img {
+  width: 100vw;
+}
+
+.footer-decorative-2 {
+  top: 193px;
+  left: 104px;
+  transform: rotate(50deg);
+}
+
+.footer-decorative-2 img {
+  width: 180px;
+  filter: blur(4px);
+}
+
+.footer-decorative-3 {
+  top: 200px;
+  right: 110px;
+  transform: rotate(70deg);
+}
+
+.footer-decorative-3 img,
+.footer-decorative-4 img {
+  width: 200px;
+}
+
+.footer-decorative-4 { 
+  bottom: 80px;
+  left: 85px;
+  transform: rotate(-90deg);
+}
+
+.footer-decorative-5 {
+  bottom: 90px;
+  right: 100px;
+  transform: rotate(-130deg);
+}
+
+.footer-decorative-5 img {
+  width: 180px;
+  filter: blur(2px)
+}
+
+/* =========== FOOTER ===========*/
+.footer {
+  background: var(--color-blue-dark);
+  position: relative;
+}
+
+/* =========== FOOTER FEEDBACK ===========*/
+
+.footer__feedback {
+  margin-top: 300px;
+  background: var(--color-white);
+  padding: 70px 100px;
+  border-radius: 8px;
+}
+
+.footer-title,
+.footer-subtitle {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-title {
+  font-size: 36px;
+}
+
+.footer-subtitle {
+  font-size: 21px;
+  margin-top: 12px;
+}
+
+.footer__field {
+  margin-top: 37px;
+}
+
+.field-1 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.field-1 input {
+  width: 380px;
+  height: 88px;
+  background: var(--color-gray-4);
+  border-radius: 8px;
+  padding: 32px 20px 32px 60px;
+  font-family: var(--font-family-R);
+  background-image: url('../img/icons/phone-2.svg');
+  background-repeat: no-repeat;
+  background-position: left center;
+  font-size: 15px;
+}
+
+.field-1 input::placeholder {
+  font-family: var(--font-family-R);
+}
+
+.field-1 button {
+  width: 380px;
+}
+
+.footer__field label {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.footer__field label input,
+.checbox-text {
+  cursor: pointer;
+}
+
+.footer__field label input {
+  margin-right: 7px;
+}
+
+.checbox-text {
+  font-size: 11px;
+  color: var(--color-gray-3);
+}
+
+/* ====================== FOOTER LINKS ======================*/
+
+.footer__links-1 {
+  display: flex;
+  gap: 43px;
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 80px;
+}
+
+.footer__links a {
+  color: var(--color-gray-3);
+  transition: var(--animation);
+  font-size: 12px;
+}
+
+.footer__links a:hover {
+  color: var(--color-gray-5);
+}
+
+.footer__links > a {
+  margin-top: 22px;
+}
+
+/* =========== MEDIA ===========*/
+@media (max-width: 1420px) {
+  .footer-decorative-2 {
+    left: 0;
+  }
+
+  .footer-decorative-3 {
+    right: 0;
+  }
+
+  .footer-decorative-4 {
+    left: 0;
+  }
+
+  .footer-decorative-5 {
+    right: 0;
+  }
+}
+
+@media (max-width: 1220px) {
+  .footer__feedback {
+    margin-top: 150px;
+  }
+
+  .footer__links {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 950px) {
+  .footer-decorative-2,
+  .footer-decorative-3,
+  .footer-decorative-4,
+  .footer-decorative-5 {
+    display: none;
+  }
+
+  .footer__feedback {
+    padding: 40px;
+  }
+
+  .footer-title {
+    font-size: 5vw;
+  }
+  
+  .footer-subtitle {
+    font-size: 2.5vw;
+    margin-top: 12px;
+  }
+
+  .field-1 {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .field-1 input,
+  .field-1 button {
+    width: 80%;
+  }
+
+  .checbox-text {
+    text-align: center;
+  }
+
+  .footer__links-1,
+  .footer__links a {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .field-1 input {
+    padding: 0px 20px 0px 60px;
+  }
+
+  .field-1 input,
+  .field-1 button {
+    height: 60px;
+  }
+}
+
+@media (max-width: 530px) {
+  .footer__feedback {
+    margin-top: 88px;
+    padding: 25px;
+  }
+
+  .field-1 input,
+  .field-1 button {
+    width: 100%;
+  }
+
+  .field-1 button {
+    font-size: 1px
+  }
+
+  .footer__links-1 {
+    gap: 0;
+  }
+
+  .footer__links-1,
+  .footer__links a {
+    font-size: 3vw;
+  }
+
+  .field-1 input::placeholder {
+    font-size: 3vw;
+  }
+
+  .field-1 button {
+    font-size: 4vw;
+  }
+
+  .footer-title {
+    font-size: 6vw;
+  }
+
+  .footer-subtitle {
+    font-size: 4vw;
+  }
+}
+
+
+
+
+
+
+

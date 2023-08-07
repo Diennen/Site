@@ -1,0 +1,28 @@
+.bold-title {
+  font-family: var(--font-family-B);
+  font-size: 48px;
+}
+
+.primary-title {
+  font-family: var(--font-family-M);
+  font-size: 16px;
+}
+
+.single-title {
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  text-align: center;
+}
+
+.gallery-subtitle {
+  display: flex;
+  justify-content: center;
+  margin-top: 14px;
+}
+
+.subtitle {
+  font-family: var(--font-family-R);
+  font-size: 16px;
+}
+
