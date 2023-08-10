@@ -1,0 +1,28 @@
+.main-button {
+  background: var(--color-orange);
+  font-size: 18px;
+  font-family: var(--font-family-M);
+  color: var(--color-gray-1);
+  transition: var(--animation);
+  height: 88px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.main-button:hover,
+.main-button:focus {
+  background: var(--color-orange-light);
+}
+
+.overhead {
+  height: 37px;
+  font-family: var(--font-family-R);
+  font-size: 11px;
+  background: var(--color-gray-4);
+  color: var(--color-gray-1);
+  text-transform: uppercase;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
